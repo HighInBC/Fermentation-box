@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Fermentation box status</title>
+  <script src="./jquery-3.1.1.min.js"></script>
+  <script src="./RGraph.common.core.js"></script>
+  <script src="./RGraph.line.js"></script>
+  <script src="./fermentor.js"></script>
+</head>
+<body>
+<center>
+  <table style="font-size:75%;">
+    <tr><th colspan=4>Fermentation box status</th></tr>
+    <tr><td colspan=4><hr></td></tr>
+    <tr><td>Rate:</td><td style="padding-right:50px;"><span id="rate"></span> seconds</td><td>Temperature:</td><td><span id="temperature"></span>C</td></tr>
+    <tr><td>Window size:</td><td><span id="window_size"></span> seconds</td><td>Target temperature:</td><td><span id="target"></span>C</td></tr>
+    <tr><td>Percent:</td><td><span id="percent"></span>%</td><td>Mode:</td><td><span id="logic_mode"></span></td></tr>
+  </table>
+  <canvas id="cvs" width="650" height="250">[No canvas support]</canvas>
+</center>
+</body>
+</html>
