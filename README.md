@@ -1,6 +1,6 @@
 # Fermentation-box
 
-THIS PROJECT IS NOT READY FOR PUBLIC CONSUMPTION. It is buggy.
+THIS PROJECT IS NOT READY FOR PUBLIC CONSUMPTION. It is buggy and incomplete.
 
 A control system to keep a fermentation chamber at a constant target temperature
 
